@@ -5,7 +5,7 @@ import { ArrowUpCircle, ExternalLink } from 'lucide-react';
 
 const StoryCard = ({ story }) => {
   return (
-    <Card className="h-full flex flex-col">
+    <Card className="h-full flex flex-col bg-green-50">
       <CardContent className="flex-grow pt-6">
         <h2 className="text-xl font-semibold mb-2">{story.title}</h2>
         <div className="flex items-center text-sm text-gray-500 mb-4">

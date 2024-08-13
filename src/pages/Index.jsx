@@ -3,7 +3,7 @@ import HackerNewsList from '../components/HackerNewsList';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-green-100">
       <HackerNewsList />
     </div>
   );
